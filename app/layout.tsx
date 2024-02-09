@@ -12,7 +12,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'BoardWex',
+  title: 'BoardWex - Collaborate while drawing notes',
   description: 'Collaborate while drawing notes.',
 }
 

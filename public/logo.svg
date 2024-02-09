@@ -1,1 +1,6 @@
-<svg id="logo-38" width="78" height="32" viewBox="0 0 78 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M55.5 0H77.5L58.5 32H36.5L55.5 0Z" class="ccustom" fill="#FF7A00"></path> <path d="M35.5 0H51.5L32.5 32H16.5L35.5 0Z" class="ccompli1" fill="#FF9736"></path> <path d="M19.5 0H31.5L12.5 32H0.5L19.5 0Z" class="ccompli2" fill="#FFBC7D"></path> </svg>
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M32.4599 0L32.4561 21.0073H0L0.00229374 12.4109C0.00309156 5.5568 5.5595 0 12.4136 0H32.4599Z" fill="#FF6868"/>
+<path d="M59.5839 0C66.202 0 71.6104 5.17964 71.9756 11.7066L71.9952 12.4108L71.9898 43.9202H39.5261L39.5299 0H59.5839Z" fill="#FFBF42"/>
+<path d="M32.4561 28.0735L32.4599 71.9975L12.4114 72C5.79318 72 0.384772 66.8204 0.0196472 60.2935L0 59.5892V28.0735H32.4561Z" fill="#FFBF42"/>
+<path d="M39.5261 50.9863H71.9898L71.9929 59.5891C71.9921 66.4432 66.4357 71.9999 59.5814 71.9999L39.5299 71.9974L39.5261 50.9863Z" fill="#FF6868"/>
+</svg>
