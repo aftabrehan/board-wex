@@ -25,17 +25,20 @@ export const Item = ({ id, name, imageUrl }: ItemProps) => {
   }
 
   return (
-    <div className="aspect-square relative">
+    <div
+      className={cn(
+        'aspect-square relative border-2 border-transparent rounded-[8px] opacity-75 hover:opacity-100 transition cursor-pointer',
+        isActive && 'p-[1px] opacity-100 border-white'
+      )}
+    >
       <Hint label={name} side="right" align="start" sideOffset={18}>
         <Image
-          fill
           alt={name}
           src={imageUrl}
           onClick={onClick}
-          className={cn(
-            'rounded-md cursor-pointer opacity-75 hover:opacity-100 transition',
-            isActive && 'opacity-100'
-          )}
+          width={32}
+          height={32}
+          className="rounded-[5px] w-full h-full"
         />
       </Hint>
     </div>

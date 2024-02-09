@@ -1,14 +1,10 @@
-"use client";
+'use client'
 
-import { Plus } from "lucide-react";
-import { CreateOrganization } from "@clerk/nextjs";
+import { Plus } from 'lucide-react'
+import { CreateOrganization } from '@clerk/nextjs'
 
-import {
-  Dialog,
-  DialogContent,
-  DialogTrigger,
-} from "@/components/ui/dialog";
-import { Hint } from "@/components/hint";
+import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog'
+import { Hint } from '@/components/hint'
 
 export const NewButton = () => {
   return (
@@ -21,7 +17,7 @@ export const NewButton = () => {
             align="start"
             sideOffset={18}
           >
-            <button className="bg-white/25 h-full w-full rounded-md flex items-center justify-center opacity-60 hover:opacity-100 transition">
+            <button className="bg-white/30 hover:bg-white/40 h-full w-full rounded-md flex items-center justify-center transition">
               <Plus className="text-white" />
             </button>
           </Hint>
@@ -31,5 +27,5 @@ export const NewButton = () => {
         <CreateOrganization />
       </DialogContent>
     </Dialog>
-  );
-};
+  )
+}

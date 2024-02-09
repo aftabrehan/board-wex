@@ -12,7 +12,13 @@ import { InviteButton } from './invite-button'
 export const Navbar = () => {
   const { organization } = useOrganization()
 
+  const variables = {
+    colorPrimary: '#ffbf42',
+    colorAlphaShade: '#ffbf42',
+  }
+
   const orgTileStyles = {
+    ...variables,
     elements: {
       rootBox: {
         display: 'flex',
@@ -41,7 +47,7 @@ export const Navbar = () => {
         <OrganizationSwitcher hidePersonal appearance={orgTileStyles} />
       </div>
       {organization && <InviteButton />}
-      <UserButton />
+      <UserButton appearance={{ variables }} />
     </div>
   )
 }

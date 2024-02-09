@@ -18,6 +18,10 @@ export const OrgSidebar = () => {
   const favorites = searchParams.get('favorites')
 
   const orgTileStyles = {
+    variables: {
+      colorPrimary: '#ffbf42',
+      colorAlphaShade: '#ffbf42',
+    },
     elements: {
       rootBox: {
         display: 'flex',
@@ -56,7 +60,7 @@ export const OrgSidebar = () => {
           className="font-normal justify-start px-2 w-full"
         >
           <Link href="/">
-            <LayoutDashboard className="h-4 w-4 mr-2" />
+            <LayoutDashboard className="h-4 w-4 mr-2 stroke-amber" />
             Team boards
           </Link>
         </Button>
@@ -72,7 +76,7 @@ export const OrgSidebar = () => {
               query: { favorites: true },
             }}
           >
-            <Star className="h-4 w-4 mr-2" />
+            <Star className="h-4 w-4 mr-2 stroke-amber" />
             Favorite boards
           </Link>
         </Button>
