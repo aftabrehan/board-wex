@@ -1,6 +1,6 @@
 # BoardWex - Real-Time Miro Clone
 
-<!-- ![BoardWex - Real-Time Miro Clone](TODO: Add Thumbnail) -->
+![BoardWex - Real-Time Miro Clone](https://github.com/aftabrehan/board-wex/assets/93012310/8d85080c-f3a7-412f-8194-b45b601a17e4)
 
 Real-Time Miro Clone Built With Nextjs, React, Covex, Liveblocks, TypeScript, and Tailwind CSS.
 
