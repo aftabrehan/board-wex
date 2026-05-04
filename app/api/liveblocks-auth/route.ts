@@ -1,4 +1,4 @@
-import { auth, currentUser } from '@clerk/nextjs'
+import { auth, currentUser } from '@clerk/nextjs/server'
 import { Liveblocks } from '@liveblocks/node'
 import { ConvexHttpClient } from 'convex/browser'
 
